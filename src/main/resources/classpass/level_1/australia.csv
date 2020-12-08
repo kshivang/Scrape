@@ -1,4 +1,3 @@
-alias,activities,address,venue_id,venue_name,location_name,display_rating_total,display_rating_average
 inspirecycle-teneriffe,"Boxing,Barre,Cycling","Address(address_line0=null, address_line1=76 Commercial Rd, address_line2=null, city=Teneriffe, state=QLD, zip_code=4005)",34825,InspireCycle,Teneriffe,5000+,4.846956
 kx-pilates-newstead,Pilates,"Address(address_line0=, address_line1=1/76 Commercial Rd, address_line2=, city=Newstead, state=, zip_code=4006)",36997,KX Pilates,Newstead,1000+,4.8801274
 the-body-method-cornerstone-tugun-qld,"Low-credit livestreams,Pilates,Livestream pilates","Address(address_line0=Cornerstone Stores, address_line1=570 Gold Coast Hwy , address_line2=, city=Tugun QLD , state=, zip_code=4224)",45845,The Body Method ,,1000+,4.828882

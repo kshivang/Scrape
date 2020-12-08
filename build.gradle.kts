@@ -9,6 +9,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://jitpack.io") }
 }
 
 dependencies {
@@ -18,6 +19,8 @@ dependencies {
     implementation("com.github.kittinunf.fuel:fuel-gson:2.3.0")
 
     implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.13.0")
+
+    implementation("it.skrape:skrapeit-core:1.0.0-alpha8")
 
 }
 
