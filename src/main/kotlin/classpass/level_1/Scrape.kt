@@ -5,6 +5,7 @@ import com.github.kittinunf.fuel.core.awaitResponseResult
 import com.github.kittinunf.fuel.core.extensions.jsonBody
 import com.github.kittinunf.fuel.gson.gsonDeserializerOf
 import com.github.kittinunf.fuel.httpPost
+import common.writeToCSV
 
 const val api = "https://classpass.com/_api/unisearch/v1/layout/web_search_page"
 const val outputPath = "src/main/resources/classpass/level_1"
@@ -46,7 +47,6 @@ suspend fun Params.getData() =
         ?.map { it.list } ?: listOf())
         .run { listOf(VenueTabItem.header) + this }
 
-fun List<List<String>>.writeToCSV(filePath: String) = csvWriter().writeAll(this, filePath)
 
 data class Response(
     val data: Data,
