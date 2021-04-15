@@ -21,6 +21,7 @@ dependencies {
     implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.13.0")
 
     implementation("it.skrape:skrapeit-core:1.0.0-alpha8")
+    implementation("org.jsoup:jsoup:1.13.1")
 
 }
 

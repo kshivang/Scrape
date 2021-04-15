@@ -1,6 +1,5 @@
 package classpass.level_1
 
-import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
 import com.github.kittinunf.fuel.core.awaitResponseResult
 import com.github.kittinunf.fuel.core.extensions.jsonBody
 import com.github.kittinunf.fuel.gson.gsonDeserializerOf
