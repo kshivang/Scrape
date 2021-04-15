@@ -15,7 +15,7 @@ fun main() {
 
 }
 
-fun String.removeImgTags() = Jsoup.parse((this)).run {
+fun String.removeImgTags() = Jsoup.parse(this).run {
     select("img").remove()
     select("a").remove()
     toString()
